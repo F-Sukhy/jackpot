@@ -1,0 +1,423 @@
+
+
+/*=============extra large device start============*/
+/* @media(min-width:1200px) and (max-width:1399.98px){
+  #about-us {
+    
+    bottom: -260px !important;
+  }
+  #banner {
+   
+    padding-bottom: 181px !important;
+    
+  }
+} */
+
+
+/*=============extra large device end============*/
+
+
+/*=============large device start============*/
+@media(min-width:992px) and (max-width:1199.98px){
+
+  .navbar .navbar-nav .nav-link {    
+    padding-left: 18px !important;  
+  }
+  .ban-left-img{
+    margin-top: 20px!important;
+  }
+  #banner{
+    padding-bottom: 222px !important;
+  }
+  #banner .ban-ri-text h1 {
+    font-size: 253px !important;
+    margin-top: -18px !important;
+  }
+  #banner .ban-ri-text p{
+    margin-top: -25px !important;
+    padding-right: 23px !important;
+  } 
+  /* #banner .ban-ri-text p{
+    display: none !important;
+  } */
+  #banner .ban-ri-text a{
+    margin-left: 120px!important;
+    margin-top: 10px;
+  }
+  #about-us {
+    bottom: -317px !important;
+  }
+   
+  .nscroll p .dolar{
+    margin-left: 33px!important;
+  }
+  .nscroll p .name{
+    margin-right: 50px !important;
+  }
+  .faqlight .faq-light img {
+    
+    bottom: -180px !important;
+    
+  }
+  .method input {
+    width: 387px !important;
+    
+  }
+  .method button {
+	
+    margin-left: -5px !important;
+  }
+  
+
+}
+/*=============large device end============*/
+
+
+/*=============medium device start============*/
+
+@media (min-width: 768px) and (max-width:991.98px){
+  .navbar {
+    
+    position: static;
+    top: 0;
+    left: 0;
+    
+  }
+  .navbar-toggler{
+    border-color: #fff;
+    margin-right: 10px;
+  }
+  .navbar-toggler span{
+    color: #fff;
+  }
+  .navbar-nav{
+    text-align: center;
+    background: #944bff !important;
+    padding-bottom: 30px !important;
+    padding-top: 50px !important;
+  }
+  .nav-link{
+    background: #fcb100 !important;
+  }
+  .navbar-nav .silo{
+    width: 150px;
+    margin-left: 270px !important;
+    margin-top: 20px !important;
+  }
+  .navbar .navbar-nav .last {
+    padding-right: 30px !important;
+  }
+  
+  #banner{
+    padding-top: 176px !important;
+    padding-bottom: 172px !important;
+  }
+  #banner .ban-ri-text{
+    
+    margin-top: 0 !important;
+  }
+  
+  #banner .ban-ri-text h1 {
+    
+    font-size: 220px !important;
+    margin-top: -12px !important;
+    
+  }
+  #banner .ban-ri-text p{
+    padding-right: 0 !important;
+    margin-top: -20px !important;
+    text-align: justify !important;
+  }
+  
+  #banner .ban-ri-text a{
+    margin-left: 83px!important;
+    margin-top: 10px;
+  }
+  #banner {
+    padding-bottom: 190px !important;
+    padding-top: 154px !important;
+  }
+  
+  #about-us {
+    
+    bottom: -170px !important;
+  }
+  #about-us .about-text {
+    
+    margin-bottom: 5px !important;
+  } 
+  #about-us .about-text {
+   
+    padding: 20px 0 !important;
+  }
+  #about-us .about-text p{
+    padding: 0 !;
+  }
+  .game-item{
+    margin-top: 30px!important;
+  }
+  #spin {
+    padding-top: 0 !important;
+  }
+  .spin-img{
+    margin-top: 90px !important;
+  }
+  #faq .heading h1{
+    margin-top: 70px !important;
+  }
+  .method input {
+    width: 285px !important;
+    
+  }
+  .method button {
+    
+    margin-left: -9px !important;
+  }
+  .method .payment {
+    
+    padding-bottom: 20px !important;
+  }
+  .method .payment a{
+    margin-right: 0 !important;
+  }
+  #footer .socail {
+    
+    margin-bottom: 29px !important;
+  }
+
+  #faq {
+    
+    padding-top: 50px !important;
+    
+    
+  }
+  .faqlight .faq-light img {
+    
+    bottom: -201px !important;
+    
+  }
+
+}
+
+/*=============medium device end============*/
+
+
+/*=============small device start============*/
+
+@media (min-width: 576px) and (max-width:767.98px){
+  .navbar {
+    
+    position: static;
+    top: 0;
+    left: 0;
+    
+  }
+  .navbar-toggler{
+    border-color: #fff;
+    margin-right: 10px;
+  }
+  .navbar-toggler span{
+    color: #fff;
+  }
+  .navbar-nav{
+    text-align: center;
+    background: #944bff !important;
+    padding-bottom: 30px !important;
+    padding-top: 50px !important;
+  }
+  .nav-link{
+    background: #fcb100 !important;
+  }
+  .navbar-nav .silo{
+    width: 150px;
+    margin-left: 200px !important;
+    margin-top: 20px !important;
+  }
+  .navbar .navbar-nav .last {
+    padding-right: 30px !important;
+  }
+  
+  #banner{
+    padding-bottom: 735px!important;
+  }
+  #banner .ban-ri-text{
+    margin-left: 30px !important;
+    margin-top: 0 !important;
+  }
+  
+  #banner .ban-ri-text h1 {
+    
+    font-size: 148px !important;
+    margin-top: -12px !important;
+    
+  }
+  #banner .ban-ri-text p{
+    padding-right: 0 !important;
+    margin-top: -20px !important;
+    margin-left: -5px!important;
+  }
+  
+  #banner .ban-ri-text a{
+    margin-left: 36px!important;
+    margin-top: 10px;
+  }
+  #banner {
+    padding-bottom: 190px !important;
+    padding-top: 154px !important;
+  }
+  
+  #about-us {
+    
+    bottom: -130px !important;
+  }
+  #about-us .about-text {
+    
+    margin-bottom: 5px !important;
+  } 
+  #about-us .about-text {
+   
+    padding: 20px 0 !important;
+  }
+  #about-us .about-text p{
+    padding: 0 !;
+  }
+  .game-item{
+    margin-top: 30px!important;
+  }
+  #spin {
+    padding-top: 0 !important;
+  }
+  .spin-img{
+    margin-top: 90px !important;
+  }
+  .method .payment {
+    
+    padding-bottom: 20px !important;
+  }
+  #footer .socail {
+    
+    margin-bottom: 29px !important;
+  }
+
+  #faq {
+    
+    padding-top: 50px !important;
+    
+    
+  }
+  .faqlight .faq-light img {
+    
+    bottom: -131px !important;
+    
+  }
+
+  
+}
+
+/*=============small device end============*/
+
+/*=============exrta small device start============*/
+
+@media (min-width:50px) and (max-width: 575.98px){
+  .navbar {
+    
+    position: static;
+    top: 0;
+    left: 0;
+    
+  }
+  .navbar-toggler{
+    border-color: #fff;
+    margin-right: 10px;
+  }
+  .navbar-toggler span{
+    color: #fff;
+  }
+  .navbar-nav{
+    text-align: center;
+    background: #944bff !important;
+    padding-bottom: 30px !important;
+    padding-top: 50px !important;
+  }
+  .nav-link{
+    background: #fcb100 !important;
+  }
+  .navbar-nav .silo{
+    width: 150px;
+    margin-left: 200px !important;
+    margin-top: 20px !important;
+  }
+  .navbar .navbar-nav .last {
+    padding-right: 30px !important;
+  }
+  #banner{
+    padding-bottom: 735px!important;
+  }
+  #banner .ban-ri-text{
+    margin-left: 30px !important;
+    margin-top: 0 !important;
+  }
+  
+  #banner .ban-ri-text h1 {
+    
+    font-size: 148px !important;
+    margin-top: -12px !important;
+    
+  }
+  #banner .ban-ri-text p{
+    padding-right: 0 !important;
+    margin-top: -20px !important;
+    margin-left: -5px!important;
+  }
+  /* #banner .ban-ri-text p{
+    display: none !important;
+  } */
+  #banner .ban-ri-text a{
+    margin-left: 36px!important;
+    margin-top: 10px;
+  }
+  #banner {
+    padding-bottom: 200px !important;
+  }
+  #about-us {
+    
+    bottom: -150px !important;
+  }
+  #about-us .about-text {
+    
+    margin-bottom: 5px !important;
+  } 
+  #about-us .about-text {
+   
+    padding: 20px 0 !important;
+  }
+  #about-us .about-text p{
+    padding: 0 !;
+  }
+  .game-item{
+    margin-top: 30px!important;
+  }
+  #faq {
+    padding-top: 0 !important;
+  }
+  #faq .heading h1{
+    margin-top: 50px;
+  }
+  .faqlight .faq-light img {
+    
+    bottom: -131px !important;
+   
+  }
+  .method .payment {
+    
+    padding-bottom: 20px !important;
+  }
+  #footer .socail {
+    
+    margin-bottom: 29px !important;
+  }
+  .lastlight .tos-light img{
+    bottom: 70px;
+  }
+} 
+/*=============exrta small device end============*/
