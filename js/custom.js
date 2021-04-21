@@ -43,10 +43,7 @@ $(function(){
 });
 
 
-//wow js plugin
-new WOW().init();
 
-//====loader==========
 
 
 
@@ -69,8 +66,8 @@ $('.navbar .navbar-nav .nav-link').on('click', function () {
 
 
 
-$(window).load(function(){
-  $('.preloader').delay(2000).fadeOut();
-});
+// $(window).load(function(){
+//   $('.preloader').delay(2000).fadeOut();
+// });
 
 

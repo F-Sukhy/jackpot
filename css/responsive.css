@@ -1,80 +1,5 @@
 
 
-/*=============extra large device start============*/
-/* @media(min-width:1200px) and (max-width:1399.98px){
-  #about-us {
-    
-    bottom: -260px !important;
-  }
-  #banner {
-   
-    padding-bottom: 181px !important;
-    
-  }
-} */
-
-
-/*=============extra large device end============*/
-
-
-/*=============large device start============*/
-/* @media(min-width:992px) and (max-width:1199.98px){
-
-  .navbar .navbar-nav .nav-link {    
-    padding-left: 18px !important;  
-  }
-  .ban-left-img{
-    margin-top: 20px!important;
-  }
-  #banner{
-    padding-bottom: 222px !important;
-  }
-  #banner .ban-ri-text h1 {
-    font-size: 253px !important;
-    margin-top: -18px !important;
-  }
-  #banner .ban-ri-text p{
-    margin-top: -25px !important;
-    padding-right: 23px !important;
-  } 
-  /* #banner .ban-ri-text p{
-    display: none !important;
-  } */
-  /* #banner .ban-ri-text a{
-    margin-left: 120px!important;
-    margin-top: 10px;
-  }
-  #about-us {
-    bottom: -317px !important;
-  }
-   
-  .nscroll p .dolar{
-    margin-left: 33px!important;
-  }
-  .nscroll p .name{
-    margin-right: 50px !important;
-  }
-  .faqlight .faq-light img {
-    
-    bottom: -180px !important;
-    
-  }
-  .method input {
-    width: 387px !important;
-    
-  }
-  .method button {
-	
-    margin-left: -5px !important;
-  }
-  
-
-} */ 
-/*=============large device end============*/
-
-
-/*=============medium device start============*/
-
 @media (min-width: 768px) and (max-width:991.98px){
   .navbar {
     
@@ -101,7 +26,7 @@
   }
   .navbar-nav .silo{
     width: 150px;
-    margin-left: 270px !important;
+    margin-left: 90px !important;
     margin-top: 20px !important;
   }
   .navbar .navbar-nav .last {
@@ -156,6 +81,7 @@
   .spin-img{
     margin-top: 90px !important;
   }
+  
   #faq .less h1{
     margin-top: 50px !important;
   }
@@ -314,12 +240,7 @@
     
     
   }
-  .faqlight .faq-light img {
-    
-    bottom: -131px !important;
-    
-  }
-
+  
   
 }
 
@@ -371,28 +292,26 @@
   
   #banner .ban-ri-text{
     text-align: center;
-    
+    margin-left: 0 !important;
     width: 100% !important;
   }
   #banner .ban-ri-text span{
-    margin-right: 150px !important;
+    margin-right: 0 !important;
   }
   #banner .ban-ri-text h1 {
-    
-    font-size: 148px !important;
+    font-size: 137px !important;
     margin-top: -12px !important;
-    margin-right: 150px !important;
-
-    
+    margin-right: 0 !important;
   }
-  #banner .ban-ri-text p{
-    padding-right: 150px !important;
+  #banner .ban-ri-text p {
+    padding-right: 20px !important;
     margin-top: -20px !important;
-    margin-left: -5px!important;
+    margin-left: 0px !important;
+    padding-left: 20px !important;
   }
   
   #banner .ban-ri-text a{
-    margin-left: -160px!important;
+    margin-left: -3px!important;
     margin-top: 10px;
   }
   #banner {
@@ -418,27 +337,72 @@
   .game-item{
     margin-top: 30px!important;
   }
+  #spin .spin-text h1 {
+    
+    font-size: 42px !important;
+     
+   }
+   #spin .spin-text p,
+   #spin .spin-text .choto
+    {
+   
+    padding-right: 50px !important;
+  }
   #faq {
     padding-top: 0 !important;
   }
-  #faq .heading h1{
+  #faq .heading h1 {
     margin-top: 50px;
+    font-size: 30px !important;
+    margin-left: 25px !important;
   }
-  .faqlight .faq-light img {
+  .countdown{
+    display: block !important;
+  }
+  .countdown .time {
     
-    bottom: -131px !important;
+    font-size: 20px !important;
    
   }
+  .countdown #count {
+    
+    margin-bottom: 47px !important;
+    margin-top: 25px !important;
+    margin-left: 42px !important;
+  }
+  .countdown .time {
+    
+    margin-left: 76px !important;
+  }
+  #count div{
+    padding:  0 10px !important;
+  }
+  .nscroll p .name {
+    
+    margin-right: 45px !important;
+  }
+  .nscroll p .dolar {
+    
+    margin-left: 40px !important;
+  }
+  .method input {
+    width: 270px !important;
+  
+  }
+  
   .method .payment {
     
     padding-bottom: 20px !important;
+  }
+  .method .payment a {
+    margin-right: -3px;
   }
   #footer .socail {
     
     margin-bottom: 29px !important;
   }
   .lastlight .tos-light img{
-    bottom: 70px;
+    bottom: 72px !important;
   }
 } 
 /*=============exrta small device end============*/
