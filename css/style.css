@@ -85,12 +85,16 @@ img {
 #banner {
   background: #150035;
   padding-top: 170px;
-  padding-bottom: 170px;
-  position: relative;
+  padding-bottom: 180px;
+  display: flex;
+}
+#banner .ban-left-img {
+  width: 48%;
 }
 #banner .ban-ri-text {
   margin-left: 80px;
-  margin-top: 20px;
+  margin-top: 70px;
+  width: 52%;
 }
 #banner .ban-ri-text span {
   font-family: 'Nunito', sans-serif;
@@ -116,7 +120,7 @@ img {
   text-align: center;
   color: #fff;
   margin-top: -40px;
-  padding-right: 80px;
+  padding-right: 180px;
   padding-bottom: 30px;
   font-family: 'Nunito', sans-serif;
   font-weight: 400px;
@@ -146,22 +150,20 @@ img {
   box-shadow: 0px 6px 0px 0px #661355;
   text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
 }
-.about-baka {
+#games {
+  padding-bottom: 100px;
+  background: #0b001b;
+}
+#games .about-banner {
   clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
-  filter: drop-shadow(0px 6px 0px #3a0090);
+  transform: translateY(-50%);
 }
-#about-us {
-  position: absolute;
-  left: 95px;
-  bottom: -390px;
-}
-#about-us .about-text {
+#games .about-text {
   box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
   background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
   padding: 45px 15px;
-  margin-bottom: 50px;
 }
-#about-us .about-text h2 {
+#games .about-text h2 {
   font-family: 'Anton', sans-serif;
   font-weight: 400px;
   font-size: 24px;
@@ -173,7 +175,7 @@ img {
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 35px #4d0148);
 }
-#about-us .about-text h3 {
+#games .about-text h3 {
   font-family: 'Anton', sans-serif;
   font-weight: 400px;
   font-size: 24px;
@@ -181,7 +183,7 @@ img {
   color: #fff;
   text-transform: capitalize;
 }
-#about-us .about-text p {
+#games .about-text p {
   font-family: 'Nunito', sans-serif;
   font-weight: 400px;
   font-size: 16px;
@@ -189,13 +191,9 @@ img {
   text-transform: capitalize;
   padding: 0 15px;
 }
-#games {
-  padding-top: 180px;
-  padding-bottom: 100px;
-  background: #0b001b;
-}
 #games .game-heading {
   padding-bottom: 60px;
+  margin-top: -30px !important;
 }
 #games .game-heading h1 {
   font-family: 'Anton', sans-serif;
@@ -445,40 +443,6 @@ img {
   box-shadow: 0px 6px 0px 0px #661355;
   text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
 }
-.faqlight {
-  position: relative;
-}
-.faqlight .faq-light img {
-  position: absolute;
-  bottom: -180px;
-  left: 90px;
-  z-index: 99999;
-  animation: faqlight linear 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes faqlight {
-  100% {
-    margin-left: 550px;
-  }
-}
-.scrolllight {
-  position: relative;
-}
-.scrolllight .scroll-light img {
-  position: absolute;
-  bottom: 60px;
-  left: -10px;
-  z-index: 99999;
-  animation: scrolllight linear 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes scrolllight {
-  100% {
-    margin-left: 410px;
-  }
-}
 #faq {
   background: #150035;
   padding-top: 100px;
@@ -501,6 +465,23 @@ img {
   border-bottom: 2px solid#070006;
   box-shadow: 0px 1px 0px 0px #2f0a5d;
   margin-bottom: 60px;
+}
+#faq .heading .faqlight {
+  position: relative;
+}
+#faq .heading .faqlight .faq-light img {
+  position: absolute;
+  top: -60px;
+  left: 0px;
+  z-index: 99999;
+  animation: faqlight linear 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes faqlight {
+  100% {
+    margin-left: 90%;
+  }
 }
 .accordion-button:focus {
   border: none;
@@ -538,27 +519,29 @@ img {
 }
 .countdown {
   display: flex;
-  margin-bottom: 20px;
 }
 .countdown .time {
+  width: 35%;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
-  margin-top: 20px;
   margin-right: 10px;
 }
 .countdown #count {
+  width: 65%;
   color: #fff;
   font-size: 20px;
   display: flex;
+  margin-bottom: 30px;
+  margin-top: -20px;
 }
 .countdown #count div {
   flex-basis: 200px;
   width: 70px;
   padding: 5px;
   border-radius: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: center;
   border: 1px solid yellow;
 }
@@ -575,6 +558,23 @@ img {
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
   text-transform: capitalize;
+}
+.scrolllight {
+  position: relative;
+}
+.scrolllight .scroll-light img {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  z-index: 99999;
+  animation: scrolllight linear 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes scrolllight {
+  100% {
+    margin-left: 90%;
+  }
 }
 .nscroll {
   width: 100%;
@@ -606,7 +606,7 @@ img {
   font-family: 'Nunito', sans-serif;
   font-weight: 400px;
   font-size: 16px;
-  margin-left: 100px;
+  margin-left: 130px;
 }
 .nscroll::-webkit-scrollbar {
   width: 10px;
@@ -636,7 +636,7 @@ img {
   text-shadow: 4px 4px 0px #5813b8;
 }
 .method input {
-  width: 450px;
+  width: 400px;
   background: none;
   border: 1px solid #290a59;
   padding: 12px;
@@ -768,7 +768,7 @@ img {
 }
 @keyframes light1 {
   100% {
-    margin-left: 1200px;
+    margin-left: 100%;
   }
 }
 .back-to-top {
