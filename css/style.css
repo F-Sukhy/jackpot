@@ -64,7 +64,7 @@ img {
   text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
 }
 .fixed-nav {
-  background: #fdb125 !important;
+  background: #ffffff !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -84,6 +84,7 @@ img {
   padding-top: 170px;
   padding-bottom: 180px;
   display: flex;
+  overflow: hidden;
 }
 #banner .ban-left-img {
   width: 48%;
@@ -268,6 +269,7 @@ img {
   padding-top: 100px;
   padding-bottom: 40px;
   background: #150035;
+  overflow: hidden;
 }
 #spin .spin-text h1 {
   font-family: 'Anton', sans-serif;
@@ -445,6 +447,7 @@ img {
   background: #150035;
   padding-top: 100px;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 #faq .heading h1 {
   font-family: 'Anton', sans-serif;
@@ -621,6 +624,7 @@ img {
   background: #1f004f;
 }
 .method {
+  overflow: hidden;
   background: linear-gradient(to bottom, #9e4efc, #570dc8);
   box-shadow: 0px 6px 0px 0px #3a0090;
 }
@@ -657,6 +661,7 @@ img {
   margin-right: 10px;
 }
 #footer {
+  overflow: hidden;
   background: #0b001b;
 }
 #footer h1 {
@@ -737,6 +742,7 @@ img {
   margin-top: 55px;
 }
 .footer-copy {
+  overflow: hidden;
   background: #0b001b;
   line-height: 70px;
   position: relative;
@@ -804,145 +810,6 @@ img {
   color: #570dc8;
 }
 /*======preloader=======*/
-.preloader {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 999999;
-  top: 0;
-  left: 0;
-  background-color: #944bff;
-}
-.preloader .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 1450px;
-  max-height: 700px;
-}
-.spinner {
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  height: 30px;
-  width: 30px;
-  margin-left: -15px;
-  margin-top: -40px;
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: relative;
-}
-.spinner span {
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  display: block;
-  position: absolute;
-  opacity: 0.7;
-}
-.spinner .ball-1 {
-  z-index: 4;
-  background-color: #815731;
-  left: -20px;
-  -webkit-transform: translate(50%, 50%) scale(0.5);
-  -webkit-animation: animateSway 2s infinite ease-in-out, animateScale 2s infinite ease-in-out;
-  animation: animateSway 2s infinite ease-in-out, animateScale 2s infinite ease-in-out;
-}
-.spinner .ball-2 {
-  z-index: 3;
-  background-color: #323232;
-  left: -20px;
-  -webkit-transform: translate(50%, 50%) scale(0.5);
-  -webkit-animation: animateSway 2s infinite ease-in-out 500ms, animateScale 2s infinite ease-in-out 500ms;
-  animation: animateSway 2s infinite ease-in-out 500ms, animateScale 2s infinite ease-in-out 500ms;
-}
-.spinner .ball-3 {
-  z-index: 2;
-  background-color: #d0701f;
-  left: -20px;
-  -webkit-transform: translate(50%, 50%) scale(0.5);
-  -webkit-animation: animateSway 2s infinite ease-in-out 1s, animateScale 2s infinite ease-in-out 1s;
-  animation: animateSway 2s infinite ease-in-out 1s, animateScale 2s infinite ease-in-out 1s;
-}
-.spinner .ball-4 {
-  z-index: 1;
-  background-color: #d0511f;
-  left: -20px;
-  -webkit-transform: translate(50%, 50%) scale(0.5);
-  -webkit-animation: animateSway 2s infinite ease-in-out 1.5s, animateScale 2s infinite ease-in-out 1.5s;
-  animation: animateSway 2s infinite ease-in-out 1.5s, animateScale 2s infinite ease-in-out 1.5s;
-}
-@-webkit-keyframes animateSway {
-  0% {
-    left: -20px;
-  }
-  50% {
-    left: 20px;
-  }
-  100% {
-    left: -20px;
-  }
-}
-@keyframes animateSway {
-  0% {
-    left: -20px;
-  }
-  50% {
-    left: 20px;
-  }
-  100% {
-    left: -20px;
-  }
-}
-@-webkit-keyframes animateScale {
-  0% {
-    -webkit-transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-  25% {
-    -webkit-transform: translate(50%, 50%) scale(1);
-    z-index: 1;
-  }
-  50% {
-    -webkit-transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-  75% {
-    -webkit-transform: translate(50%, 50%) scale(0.25);
-    z-index: -2;
-  }
-  100% {
-    -webkit-transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-}
-@keyframes animateScale {
-  0% {
-    transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-  25% {
-    transform: translate(50%, 50%) scale(1);
-    z-index: 1;
-  }
-  50% {
-    transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-  75% {
-    transform: translate(50%, 50%) scale(0.25);
-    z-index: -2;
-  }
-  100% {
-    transform: translate(50%, 50%) scale(0.5);
-    z-index: -1;
-  }
-}
 /*=============about.css start================ */
 .about {
   padding-top: 190px;
