@@ -79,6 +79,14 @@
     font-size: 40px !important;
     
   }
+  .nscroll p .name {
+    
+    margin-right: 60px !important;
+  }
+  .nscroll p .dolar {
+   
+    margin-left: 60px !important;
+  }
  
 }
 
