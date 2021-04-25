@@ -1,3 +1,86 @@
+@media (min-width: 992px) and (max-width:1199.98px){
+
+
+  .about-head{
+    padding-top: 150px;
+    padding-bottom: 150px !important;
+   
+  }
+  /*=========promotion.html========*/  
+  .navbar-nav .silo{
+    /* width: 150px;
+    margin-left: 270px !important;
+    margin-top: 20px !important; */
+    display: none !important;
+  }
+  .promotion-coin{
+    display: none;
+  }
+  .player-promotion {
+    padding-bottom: 77px !important;
+   
+  }
+  .player-promotion .player-promo-item {
+    margin-top: -125px !important;
+    /* margin-bottom: -90px !important; */
+   
+  }
+  .player-promotion .player-promo-item {
+   margin-top: 90px;
+   margin-bottom: -240px;
+   width: 100% !important;
+  }
+  .promo-offer1{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 460px !important;
+    margin-top: 200px !important;
+  }
+  .promo-offer2{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 260px !important;
+    margin-top: -50px !important;
+    
+  }
+  .promo-offer3{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+   
+   /* margin-right: 0px !important;
+   margin-top: 200px !important; */
+    
+   
+  }
+  .promo-offer4{
+    /* display: none !important; */
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 350px !important;
+    margin-top: 50px !important;
+  }
+  .overlay4{
+    animation: none !important;
+  }
+  .player-promo-text{
+    width: 100% !important;
+    margin-top: 300px;
+    margin-left: 100px;
+  }
+  .player-promo-text h1{
+    font-size: 40px !important;
+    
+  }
+ 
+}
 
 
 @media (min-width: 768px) and (max-width:991.98px){
@@ -26,8 +109,9 @@
   }
   .navbar-nav .silo{
     width: 150px;
-    margin-left: 90px !important;
+    margin-left: 270px !important;
     margin-top: 20px !important;
+  
   }
   .navbar .navbar-nav .last {
     padding-right: 30px !important;
@@ -117,6 +201,114 @@
     
   }
 
+  /*=========about.html========*/
+
+  .about-head{
+    margin-top: -75px;
+    padding-bottom: 56px !important;
+   
+  }
+  .spin-img{
+    padding-top: 80px !important;
+  
+  }
+   .about-spin-text{
+    padding-top: 140px !important;
+  
+  }
+  .about-spin-text span{
+    font-size: 14px !important;
+  
+  }
+  /*=========promotion.html========*/
+  .player-promotion {
+    
+    padding-bottom: 50px !important;
+  }
+  .promotion-coin{
+    display: none;
+  }
+  .player-promotion .player-promo-item {
+   margin-top: 90px;
+   margin-bottom: -240px;
+  }
+  .promo-offer1{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 360px;
+  }
+  .promo-offer2{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 360px;
+    margin-top: 30px;
+  }
+  .promo-offer3{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .promo-offer4{
+    /* display: none !important; */
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  .overlay4{
+    animation: none !important;
+  }
+  .player-promo-details{
+    /* display: none !important; */
+  }
+  .player-promo-text{
+    width: 100%!important;
+    padding-left: 40px !important;
+    padding-right: 30px !important;
+    margin-top: 200px;
+    
+  }
+  .player-promo-text h1{
+    font-size: 50px !important;
+    padding-left: 13px !important;
+  }
+  .player-promo-text p{
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+  .bonus .bonus-content p {
+    
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    
+  }
+  .bonus {
+    
+    padding-top: 67px !important;
+    padding-bottom: 67px !important;
+    
+  }
+  .games-games{
+    padding-bottom: 46px !important;
+    padding-top: 147px !important;
+  }
+  .member-pricing {
+    padding-top: 127px !important;
+  }
+  .con-location {
+    margin-left: 45px !important;
+    width: 100% !important;
+  }
+  
 } 
 
 /*=============medium device end============*/
@@ -199,7 +391,7 @@
   }
   .about-banner{
    
-    
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
     transform: translateY(-15%) !important;
 } 
  .about-text {
@@ -240,15 +432,112 @@
     
     
   }
+
+  /*=========about.html========*/
+  .about-head{
+    margin-top: -75px;
+    margin-bottom: -200px;
+  }
+  .about-spin{
+    padding-top: 350px !important;
+  }
+  
+  .about-games {
+    
+    padding-bottom: 48px !important;
+  }
+  .about-spin-text{
+    padding-top: 330px !important;
+  }
+  .about-spin-text p{
+    padding-right: 90px !important;
+  }
+
+
+   /*=========promotion.html========*/
+   .player-promotion {
+    
+    padding-bottom: 50px !important;
+  }
+  .promotion-coin{
+    display: none;
+  }
+  .player-promotion .player-promo-item {
+   margin-top: 200px;
+   margin-bottom: -240px;
+  }
+  .promo-offer1{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 270px;
+  }
+  .promo-offer2{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 270px;
+    margin-top: 30px;
+  }
+  .promo-offer3{
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    animation: none !important;
+    margin-left: 110px;
+    margin-top: 150px;
+  }
+  .promo-offer4{
+    display: none !important;
+  }
   
   
-}
+  .player-promo-text{
+    width: 100%!important;
+    padding-left: 40px !important;
+    padding-right: 30px !important;
+    margin-top: 200px;
+  }
+  .player-promo-text h1{
+    font-size: 40px !important;
+  }
+  .bonus .bonus-content p {
+    
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    
+  }
+  .bonus {
+    
+    padding-top: 67px !important;
+    padding-bottom: 67px !important;
+    
+  }
+
+  .games-games{
+    padding-bottom: 46px !important;
+    padding-top: 329px !important;
+  }
+
+  #contact{
+    padding-top: 415px !important;
+  }
+  #contact .contact-item {
+    margin-left: 100px !important;
+  }
+} 
+  
+  
+
 
 /*=============small device end============*/
 
 /*=============exrta small device start============*/
 
 @media (min-width:300px) and (max-width: 575.98px){
+
   .navbar {
     
     position: static;
@@ -274,7 +563,7 @@
   }
   .navbar-nav .silo{
     width: 150px;
-    margin-left: 200px !important;
+    margin-left: 100px !important;
     margin-top: 20px !important;
   }
   .navbar .navbar-nav .last {
@@ -319,8 +608,8 @@
     padding-top: 154px !important;
   }
   .about-banner{
-   
     
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
     transform: translateY(-15%) !important;
 } 
  .about-text {
@@ -402,7 +691,69 @@
     margin-bottom: 29px !important;
   }
   .lastlight .tos-light img{
-    bottom: 72px !important;
+    bottom: 0 !important;
+  }
+ /*=========about.html========*/
+  .about-head{
+    margin-top: -75px;
+    margin-bottom: -200px;
+  }
+  .about-spin{
+    padding-top: 350px !important;
+  }
+  .about-spin .about-spin-text span {
+    display: none;
+  }
+  .about-games {
+    
+    padding-bottom: 48px !important;
+  }
+
+  /*=========promotion.html========*/
+  .player-promotion {
+    
+    padding-bottom: 50px !important;
+  }
+  .promotion-coin{
+    display: none;
+  }
+  .player-promo-details{
+    display: none !important;
+  }
+  .player-promo-text{
+    width: 100%!important;
+    padding-left: 40px !important;
+    padding-right: 30px !important;
+    margin-top: 200px;
+  }
+  .player-promo-text h1{
+    font-size: 25px !important;
+  }
+  .bonus .bonus-content p {
+    
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    
+  }
+  .bonus {
+    
+    padding-top: 67px !important;
+    padding-bottom: 67px !important;
+    
+  }
+
+  .games-games{
+    padding-bottom: 46px !important;
+    padding-top: 329px !important;
+  }
+  .member-pricing {
+    padding-top: 293px !important;
+  }
+  #contact{
+    padding-top: 415px !important;
+  }
+  #contact .contact-item {
+    margin-left: 50px !important;
   }
 } 
 /*=============exrta small device end============*/

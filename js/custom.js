@@ -45,8 +45,15 @@ $(function(){
 
 
 
+ //  wow js
+ new WOW().init();
 
 
+  //counter up
+  $('.counter').counterUp({
+    delay: 5,
+    time: 2000
+});
 
 
 
